@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet"  type="text/css" href="default.css" />
+        <script type="text/javascript" src="jquery-1.6.3.min.js"></script>
+        <script type="text/javascript">
+            var Movies = function () {
+                var that = {};
+                var _data;
+
+                that.SetAllItems = function (data) {
+                    _data = data;
+                };
+
+                that.AllItems = function () {
+                    return _data;
+                };
+
+                that.DataBind = function () {
+                    for (var i = 0; i < _data.length; i++) {
+                        var movieTemplate = document.createElement('div');
+                        $(movieTemplate).html('<h2><a>' + _data[i].Title + '</a></h2><p></p>');
+                        $(movieTemplate).find('a').click(toggleMovie);
+                        $(movieTemplate).find('a').attr('index', i);
+                        $(movieTemplate).find('a').text(_data[i].Title);
+                        $('#movies').append(movieTemplate);
+                    }
+                }
+
+                var toggleMovie = function (event) {
+                    var index = $(event.target).attr('index');
+                    var descriptionField = $(event.target).parent().next();
+                    if (descriptionField.html() == '')
+                        descriptionField.html(moviesData.AllItems()[index].Description);
+                    else
+                        descriptionField.html('');
+                }
+
+                return that;
+            };
+            var moviesData = Movies();
+            function getFirstItem(data) {
+                moviesData.SetAllItems(data);
+                moviesData.DataBind();
+            }
+
+            function load(item) {
+                var index = $('#movie h2 a').attr('index');
+
+                if ($('#movie p').html() == '')
+                    $('#movie p').html(moviesData.AllItems()[index].Description);
+                else {
+                    $('#movie p').html('');
+                }
+                return false;
+            }
+
+
+            $(function () {
+                $.getJSON("movies.json", getFirstItem);
+            });
+        </script>
+    </head>
+<body>
+    <h1>Some Stuff</h1>
+    
+    <div id="movies">
+        
+    </div>
+
+    <div id="movieTemplate">
+    <h2><a></a></h2>
+    <p></p>
+    </div>
+</body>
+</html>
