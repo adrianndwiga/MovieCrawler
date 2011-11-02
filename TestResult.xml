@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\vss\MovieCrawler\MovieCrawler.Tests\bin\Release\MovieCrawler.Tests.dll" total="4" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2011-11-02" time="14:01:55">
+  <environment nunit-version="2.5.10.11092" clr-version="2.0.50727.5446" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\vss\MovieCrawler" machine-name="TRLW20492" user="ndwigaa" user-domain="B2B" />
+  <culture-info current-culture="en-GB" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\vss\MovieCrawler\MovieCrawler.Tests\bin\Release\MovieCrawler.Tests.dll" executed="True" result="Success" success="True" time="1.615" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="MovieCrawler" executed="True" result="Success" success="True" time="1.611" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="1.611" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Application" executed="True" result="Success" success="True" time="0.997" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="HtmlWriterTests" executed="True" result="Success" success="True" time="0.995" asserts="0">
+                    <results>
+                      <test-case name="MovieCrawler.Tests.Application.HtmlWriterTests.ShouldSaveMovies" executed="True" result="Success" success="True" time="0.991" asserts="2" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="ProjectFreeTv" executed="True" result="Success" success="True" time="0.541" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="GetResultsTests" executed="True" result="Success" success="True" time="0.491" asserts="0">
+                    <results>
+                      <test-case name="MovieCrawler.Tests.ProjectFreeTv.GetResultsTests.ShouldGetResults" executed="True" result="Success" success="True" time="0.488" asserts="3" />
+                      <test-case name="MovieCrawler.Tests.ProjectFreeTv.GetResultsTests.ShouldLoadAMovie" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="SetDetailsTests" executed="True" result="Success" success="True" time="0.050" asserts="0">
+                    <results>
+                      <test-case name="MovieCrawler.Tests.ProjectFreeTv.SetDetailsTests.ShouldExtractDetails" executed="True" result="Success" success="True" time="0.049" asserts="1" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

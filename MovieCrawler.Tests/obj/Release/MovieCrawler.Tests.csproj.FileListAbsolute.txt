@@ -1,0 +1,13 @@
+C:\Users\ADRIAN\Documents\MovieCrawler\MovieCrawler.Tests\bin\Release\MovieCrawler.Tests.dll
+C:\Users\ADRIAN\Documents\MovieCrawler\MovieCrawler.Tests\bin\Release\MovieCrawler.Tests.pdb
+C:\Users\ADRIAN\Documents\MovieCrawler\MovieCrawler.Tests\bin\Release\MovieCrawler.exe
+C:\Users\ADRIAN\Documents\MovieCrawler\MovieCrawler.Tests\bin\Release\nunit.framework.dll
+C:\Users\ADRIAN\Documents\MovieCrawler\MovieCrawler.Tests\bin\Release\HtmlAgilityPack.dll
+C:\Users\ADRIAN\Documents\MovieCrawler\MovieCrawler.Tests\bin\Release\MovieCrawler.pdb
+C:\Users\ADRIAN\Documents\MovieCrawler\MovieCrawler.Tests\bin\Release\HtmlAgilityPack.pdb
+C:\Users\ADRIAN\Documents\MovieCrawler\MovieCrawler.Tests\bin\Release\HtmlAgilityPack.xml
+C:\Users\ADRIAN\Documents\MovieCrawler\MovieCrawler.Tests\obj\Release\ResolveAssemblyReference.cache
+C:\Users\ADRIAN\Documents\MovieCrawler\MovieCrawler.Tests\obj\Release\MovieCrawler.Tests.dll
+C:\Users\ADRIAN\Documents\MovieCrawler\MovieCrawler.Tests\obj\Release\MovieCrawler.Tests.pdb
+C:\Users\ADRIAN\Documents\MovieCrawler\MovieCrawler.Tests\bin\Release\ProjectFreeTvDetails.html
+C:\Users\ADRIAN\Documents\MovieCrawler\MovieCrawler.Tests\bin\Release\ProjectFreeTvResults.html

@@ -1,0 +1,16 @@
+C:\Users\ADRIAN\Documents\MovieCrawler\MovieCrawler\bin\Debug\MovieCrawler.exe
+C:\Users\ADRIAN\Documents\MovieCrawler\MovieCrawler\bin\Debug\MovieCrawler.pdb
+C:\Users\ADRIAN\Documents\MovieCrawler\MovieCrawler\bin\Debug\HtmlAgilityPack.dll
+C:\Users\ADRIAN\Documents\MovieCrawler\MovieCrawler\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\ADRIAN\Documents\MovieCrawler\MovieCrawler\bin\Debug\HtmlAgilityPack.xml
+C:\Users\ADRIAN\Documents\MovieCrawler\MovieCrawler\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ADRIAN\Documents\MovieCrawler\MovieCrawler\obj\x86\Debug\MovieCrawler.exe
+C:\Users\ADRIAN\Documents\MovieCrawler\MovieCrawler\obj\x86\Debug\MovieCrawler.pdb
+C:\vss\MovieCrawler\MovieCrawler\obj\x86\Debug\MovieCrawler.exe
+C:\vss\MovieCrawler\MovieCrawler\obj\x86\Debug\MovieCrawler.pdb
+C:\vss\MovieCrawler\MovieCrawler\bin\Debug\MovieCrawler.exe
+C:\vss\MovieCrawler\MovieCrawler\bin\Debug\MovieCrawler.pdb
+C:\vss\MovieCrawler\MovieCrawler\bin\Debug\HtmlAgilityPack.dll
+C:\vss\MovieCrawler\MovieCrawler\bin\Debug\HtmlAgilityPack.pdb
+C:\vss\MovieCrawler\MovieCrawler\bin\Debug\HtmlAgilityPack.xml
+C:\vss\MovieCrawler\MovieCrawler\obj\x86\Debug\ResolveAssemblyReference.cache

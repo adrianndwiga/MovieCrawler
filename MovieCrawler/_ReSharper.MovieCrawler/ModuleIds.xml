@@ -1,0 +1,4 @@
+<Modules>
+  <Module PersistentId="36374F59-DC6E-4901-8FAF-C936B6D0576C" ModuleId="MovieCrawler" />
+  <Module PersistentId="056361D7-6FF8-4C1B-93C1-F495158C7BCD" ModuleId="MovieCrawler.Tests" />
+</Modules>
